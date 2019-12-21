@@ -96,6 +96,10 @@
       <Project>{584AA7BE-37A4-48B1-BC19-4EBF3C890073}</Project>
       <Name>HT.Framework.DotNetFx40.DotNetBar</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HT.Framework.DotNetFx40.Encrypt\HT.Framework.DotNetFx40.Encrypt.csproj">
+      <Project>{DE8EC3AD-A930-4F33-AF79-7F11E969A86C}</Project>
+      <Name>HT.Framework.DotNetFx40.Encrypt</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

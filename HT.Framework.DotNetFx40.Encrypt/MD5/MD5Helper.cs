@@ -3,14 +3,14 @@ using System;
 using System.Text;
 using System.Security.Cryptography;
 
-namespace HT.Framework.DotNetFx40.Encrypt
+namespace HT.Framework.DotNetFx40.Encrypt.MD5Encrypt
 {
     /// <summary>
     /// MD5加密
     /// MD5全称是message-digest algorithm 5，单向的加密，无法根据密文推导出明文。
     /// 应用：签名，文件校验
     /// </summary>
-    public static class MD5EncryptHelper
+    public static class MD5Helper
     {
         #region 枚举参数
         /// <summary>

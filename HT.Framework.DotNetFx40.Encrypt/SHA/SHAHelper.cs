@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace HT.Framework.DotNetFx40.Encrypt
+namespace HT.Framework.DotNetFx40.Encrypt.SHAEncrypt
 {
-    public static class SHAEncryptHelper
+    public static class SHAHelper
     {
 
         /// <summary>

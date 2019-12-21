@@ -2,9 +2,9 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace HT.Framework.DotNetFx40.Encrypt
+namespace HT.Framework.DotNetFx40.Encrypt.RSAEncrypt
 {
-    public static class RSAEncryptHelper
+    public static class RSAHelper
     {
         /// <summary>
         /// 生成 RSA 公钥和私钥

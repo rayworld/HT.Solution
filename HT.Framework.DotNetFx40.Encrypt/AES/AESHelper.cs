@@ -2,9 +2,9 @@
 using System.Text;
 using System.Security.Cryptography;
 
-namespace HT.Framework.DotNetFx40.Encrypt
+namespace HT.Framework.DotNetFx40.Encrypt.AESEncrypt
 {
-    public class AESEncryptHelper
+    public class AESHelper
     {
         /// <summary>
         /// 默认密钥-密钥的长度必须是32

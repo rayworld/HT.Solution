@@ -40,14 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AESEncryptHelper.cs" />
-    <Compile Include="DESEncryptHelper.cs" />
+    <Compile Include="AES\AESHelper.cs" />
+    <Compile Include="DES\DESHelper.cs" />
     <Compile Include="EncodingStrOrByte.cs" />
     <Compile Include="EncryptHelper.cs" />
-    <Compile Include="MD5EncryptHelper.cs" />
+    <Compile Include="MD5\MD5Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RSAEncryptHelper.cs" />
-    <Compile Include="SHAEncryptHelper.cs" />
+    <Compile Include="RSA\RSAtHelper.cs" />
+    <Compile Include="SHA\SHAHelper.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
